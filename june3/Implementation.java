@@ -1,6 +1,6 @@
 package june3;
 
-public abstract class Implementation implements Run,Win{
+public class Implementation implements Run,Win{
     @Override
     public void m1() {
         System.out.println("i am method 1 from interface Run");
@@ -12,6 +12,9 @@ public abstract class Implementation implements Run,Win{
 
     public static void main(String[] args) {
         //Implementation
+        Implementation i = new Implementation() ;
+        i.m1();
+        i.m2();
 
 
 

@@ -1,5 +1,5 @@
 package june3;
 
 public interface Run {
-    abstract void m1();
+    public void m1();
 }
