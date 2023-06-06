@@ -3,7 +3,7 @@ package com.june5;
 public class Div {
 
     void division(){
-        for(int i =1; i<= 100 ;i++){
+        for(int i =1;  i<= 100 ;i++){
 
 
 
