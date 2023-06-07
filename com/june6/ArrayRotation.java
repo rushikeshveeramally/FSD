@@ -4,33 +4,38 @@ import java.util.Arrays;
 
 public class ArrayRotation {
 
-    private static void leftRotate(int[] inputArray, int n)
-    {
-        System.out.println("Input Array Before Rotation :");
+    public static void main(String[] args) {
 
-        System.out.println(Arrays.toString(inputArray));
+        int [] arr = new int [] {1, 2, 3, 4, 5};
 
-        int temp;
+        int n = 3;
 
-        for (int i = 0; i < n; i++)
-        {
-            temp = inputArray[0];
 
-            for (int j = 0; j < inputArray.length-1; j++)
-            {
-                inputArray[j] = inputArray[j+1];
-            }
-
-            inputArray[inputArray.length - 1] = temp;
+        System.out.println("GIVEN array: ");
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
         }
 
-        System.out.println("Input Array After Left Rotation By "+n+" Positions :");
 
-        System.out.println(Arrays.toString(inputArray));
-    }
+        for(int i = 0; i < n; i++){
+            int j, last;
 
-    public static void main(String[] args)
-    {
-        leftRotate(new int[] {1,2,3,4,5,6,7}, 2);
+            last = arr[arr.length-1];
+
+            for(j = arr.length-1; j > 0; j--){
+
+                arr[j] = arr[j-1];
+            }
+
+            arr[0] = last;
+        }
+
+        System.out.println();
+
+
+        System.out.println("Array after right rotation: ");
+        for(int i = 0; i< arr.length; i++){
+            System.out.print(arr[i] + " ");
+        }
     }
 }
