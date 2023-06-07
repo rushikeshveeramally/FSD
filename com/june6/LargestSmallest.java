@@ -6,7 +6,7 @@ public class LargestSmallest {
         int large = num[0];
         int small = num[0];
 
-        for (int i = 1; i < num.length; i++)
+        for (int i = 1; i <  num.length; i++)
         {
             if (num[i] > large) {
                 large = num[i];
