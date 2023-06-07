@@ -1,4 +1,4 @@
-package june3;
+package com.june3;
 
 public class Child extends Parent {
     public String cvar;

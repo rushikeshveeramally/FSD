@@ -1,4 +1,4 @@
-package june3;
+package com.june3;
 
 public class Sclass {
     public static int svar;

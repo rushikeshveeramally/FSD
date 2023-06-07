@@ -1,4 +1,4 @@
-package june3;
+package com.june3;
 
 final class Fclass {
     protected final String name = "rushikesh";
