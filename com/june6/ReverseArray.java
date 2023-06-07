@@ -10,7 +10,7 @@ public class ReverseArray {
 
         System.out.println();
 
-        System.out.println("reverse order:");
+        System.out.println("reve rse order:");
 
         for(int i=intArray.length-1;i>=0;i--)
             System.out.print(intArray[i] + "  ");

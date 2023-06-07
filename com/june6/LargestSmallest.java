@@ -16,7 +16,7 @@ public class LargestSmallest {
             }
         }
 
-        System.out.println("The Largest array element is " + small);
+        System.out.println("The  Largest array element is " + small);
         System.out.println("The smallest array element is " + large);
     }
 
