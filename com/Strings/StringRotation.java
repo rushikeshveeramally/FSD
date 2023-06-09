@@ -8,8 +8,8 @@ public class StringRotation {
     }
 
     public static void main(String[] args) {
-        String s1 = "helloeducative";
-        String s2 = "educativehello";
+        String s1 = "hello rushikesh";
+        String s2 = "rushikesh hello";
         boolean flag = check(s1, s2);
         if(flag) System.out.println(s1 + " and " + s2 + " are rotation of each other");
         else System.out.println(s1 + " and " + s2 + " are not rotation of each other");
