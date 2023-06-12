@@ -1,9 +1,10 @@
 package com.Strings;
 
+
 public class StringRotation {
     public static boolean check(String s1, String s2) {
         if (s1.length() != s2.length()) return false;
-        String concatenatedString = s1 + s1;
+        String concatenatedString = s1+s2;
         return concatenatedString.contains(s2);
     }
 
