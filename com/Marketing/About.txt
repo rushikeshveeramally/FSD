@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Hi This is rushikesh , I am a full stack java developer with over  10years of professional experience.
 Throughout my career, I have worked on a wide range of projects, including financial systems, and enterprise applications. I had the opportunity to collaborate with cross-functional teams and deliver high-quality software solutions .
 
@@ -5,4 +6,13 @@ I have extensive experience with Java EE and Spring frameworks, including Spring
 
 I have worked on agile and waterfall model  methodologies. I have used JIRA as a project management tool.
 
+=======
+Hi This is rushikesh , I am a full stack java developer with over  10years of professional experience.
+Throughout my career, I have worked on a wide range of projects, including financial systems, and enterprise applications. I had the opportunity to collaborate with cross-functional teams and deliver high-quality software solutions .
+
+I have extensive experience with Java EE and Spring frameworks, including Spring Boot, Spring MVC, and Spring Data JPA. I am also well-versed in front-end technologies like HTML, CSS, JavaScript, and popular libraries such as Angular and React and for deployment used ci/cd and some version controlling kike GIT and TFS. I take pride in delivering scalable and robust solutions.
+
+I have worked on agile and waterfall model  methodologies. I have used JIRA as a project management tool.
+
+>>>>>>> origin/main
 Currently I am working for Miracle software solutions as a full stack java developer since 2+ years.
