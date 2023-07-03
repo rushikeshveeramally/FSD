@@ -1,11 +1,9 @@
 package com;
 
-import java.io.Console;
-
 public class Student {
 	
-	static void setName(String b){
-		System.out.println(b);
+	static void setName(){
+		System.out.println("rushikesh");
 	}
 	
 	static String getName(){
@@ -18,7 +16,7 @@ public class Student {
 			
 			String name = "hyd";
 			
-			setName("rushikesh");
+			setName();
 			System.out.println(getName());
 	}
 

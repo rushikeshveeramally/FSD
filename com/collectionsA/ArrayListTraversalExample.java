@@ -48,7 +48,7 @@ public class ArrayListTraversalExample {
 
         System.out.println("After removal");
 
-        System.out.println( stringList.remove(stringList.size()-1) + "is removed");
+        System.out.println( stringList.remove(stringList.size()-1) + " is removed");
 
         System.out.println("array list after removing last element is"+stringList);
 

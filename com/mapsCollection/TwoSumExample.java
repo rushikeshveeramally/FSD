@@ -16,7 +16,7 @@ public class TwoSumExample {
             numIndices.put(nums[i], i);
         }
 
-        return new int[0]; // Return an empty array if no two numbers sum up to the target
+        return new int[0];
     }
 
     public static void main(String[] args) {

@@ -39,10 +39,10 @@ public class RemoveStudentsExample {
         }
         double averageGpa = totalGpa / studentList.size();
 
-        // Remove students with GPA less than average
+
         studentList.removeIf(student -> student.getGpa() < averageGpa);
 
-        // Print remaining students
+
         System.out.println("Remaining students:");
         for (Student student : studentList) {
             System.out.println(student);
